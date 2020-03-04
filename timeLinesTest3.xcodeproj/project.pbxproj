@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE286C5A2401AF4700D56FE3 /* NewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE286C592401AF4700D56FE3 /* NewVC.swift */; };
+		AEB8B9A8240FFFCA00DD1D02 /* timeLinesTest3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEE235582401873800F35FAB /* timeLinesTest3.xcdatamodeld */; };
+		AEE09DE4241003DC00329538 /* ShareEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE09DE2241003DC00329538 /* ShareEntity+CoreDataClass.swift */; };
+		AEE09DE5241003DC00329538 /* ShareEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE09DE3241003DC00329538 /* ShareEntity+CoreDataProperties.swift */; };
 		AEE235502401873800F35FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2354F2401873800F35FAB /* AppDelegate.swift */; };
 		AEE235522401873800F35FAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE235512401873800F35FAB /* SceneDelegate.swift */; };
 		AEE235542401873800F35FAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE235532401873800F35FAB /* ViewController.swift */; };
 		AEE235572401873800F35FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE235552401873800F35FAB /* Main.storyboard */; };
-		AEE2355A2401873800F35FAB /* timeLinesTest3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEE235582401873800F35FAB /* timeLinesTest3.xcdatamodeld */; };
 		AEE2355C2401873900F35FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE2355B2401873900F35FAB /* Assets.xcassets */; };
 		AEE2355F2401873900F35FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE2355D2401873900F35FAB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE286C592401AF4700D56FE3 /* NewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVC.swift; sourceTree = "<group>"; };
+		AEE09DE2241003DC00329538 /* ShareEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ShareEntity+CoreDataClass.swift"; path = "timeLinesTest3/ShareEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AEE09DE3241003DC00329538 /* ShareEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ShareEntity+CoreDataProperties.swift"; path = "timeLinesTest3/ShareEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AEE2354C2401873800F35FAB /* timeLinesTest3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeLinesTest3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE2354F2401873800F35FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEE235512401873800F35FAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +48,8 @@
 		AEE235432401873800F35FAB = {
 			isa = PBXGroup;
 			children = (
+				AEE09DE2241003DC00329538 /* ShareEntity+CoreDataClass.swift */,
+				AEE09DE3241003DC00329538 /* ShareEntity+CoreDataProperties.swift */,
 				AEE2354E2401873800F35FAB /* timeLinesTest3 */,
 				AEE2354D2401873800F35FAB /* Products */,
 			);
@@ -61,6 +69,7 @@
 				AEE2354F2401873800F35FAB /* AppDelegate.swift */,
 				AEE235512401873800F35FAB /* SceneDelegate.swift */,
 				AEE235532401873800F35FAB /* ViewController.swift */,
+				AE286C592401AF4700D56FE3 /* NewVC.swift */,
 				AEE235552401873800F35FAB /* Main.storyboard */,
 				AEE2355B2401873900F35FAB /* Assets.xcassets */,
 				AEE2355D2401873900F35FAB /* LaunchScreen.storyboard */,
@@ -141,10 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE2355A2401873800F35FAB /* timeLinesTest3.xcdatamodeld in Sources */,
+				AE286C5A2401AF4700D56FE3 /* NewVC.swift in Sources */,
+				AEB8B9A8240FFFCA00DD1D02 /* timeLinesTest3.xcdatamodeld in Sources */,
 				AEE235542401873800F35FAB /* ViewController.swift in Sources */,
 				AEE235502401873800F35FAB /* AppDelegate.swift in Sources */,
+				AEE09DE4241003DC00329538 /* ShareEntity+CoreDataClass.swift in Sources */,
 				AEE235522401873800F35FAB /* SceneDelegate.swift in Sources */,
+				AEE09DE5241003DC00329538 /* ShareEntity+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXJNFG8S94;
 				INFOPLIST_FILE = timeLinesTest3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AndreaMariaLupi.timeLinesTest3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXJNFG8S94;
 				INFOPLIST_FILE = timeLinesTest3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AndreaMariaLupi.timeLinesTest3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
